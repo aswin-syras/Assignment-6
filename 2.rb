@@ -1,0 +1,5 @@
+File.new("New.txt","a+")
+File.exists?("New.txt")
+File.delete("New.txt")
+File.new("Rename.txt","a+")
+File.rename("Rename.txt","New.txt")
